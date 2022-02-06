@@ -11,10 +11,10 @@ import { useSelector } from "react-redux";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink =
-  "https://raw.githubusercontent.com/chicha099/Portfolio/main/src/Assets/CV_Flor_EN.pdf";
+  "https://raw.githubusercontent.com/Florengo/Portfolio/main/src/Assets/CV_Flor_EN.pdf";
 
 const resumeLink2 =
-  "https://raw.githubusercontent.com/chicha099/Portfolio/main/src/Assets/CV_Flor_ES.pdf";
+  "https://raw.githubusercontent.com/Florengo/Portfolio/main/src/Assets/CV_Flor_ES.pdf";
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
